@@ -1,6 +1,6 @@
 //
 // Created by ezzat on 3/3/2025.
-//
+// SinglyLinkedLists
 #include <iostream>
 
 using namespace std;
