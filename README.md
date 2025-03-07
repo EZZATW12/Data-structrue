@@ -5,42 +5,68 @@ This repository contains implementations of fundamental data structures in C++. 
 - **Dynamic Array**
 - **Singly Linked List**
 - **Doubly Linked List**
+- **Circularly Linked List**
 
 ## Features
 ### 1. Dynamic Array (`Array.cpp`)
 - Template-based implementation
-- Supports `push_back`, `pop_back`, and `size()`
+- Provides operations such as:
+  - `push_back(value)`: Add an element to the end
+  - `pop_back()`: Remove the last element
+  - `size()`: Get the number of elements
 - Overloaded operators for deep copying (`=`, `==`)
 - Exception handling for boundary conditions
 
 ### 2. Singly Linked List (`SinglyLinkedLists.cpp`)
-- Supports basic operations:
-  - `Add_Front(value)`: Insert a node at the front
-  - `Remove_Front()`: Delete a node from the front
-  - `Get_Front()`: Retrieve the first element
+- Provides operations such as:
+  - `addFront(value)`: Insert a node at the front
+  - `removeFront()`: Delete a node from the front
+  - `getFront()`: Retrieve the first element
 - Automatic memory cleanup in the destructor
 
 ### 3. Doubly Linked List (`DoublyLinkedList.cpp`)
-- Supports:
-  - `AddFront(value)`, `AddBack(value)`: Insert nodes
-  - `RemoveFront()`, `RemoveBack()`: Delete nodes
+- Provides operations such as:
+  - `addFront(value)`, `addBack(value)`: Insert nodes
+  - `removeFront()`, `removeBack()`: Delete nodes
   - `insertAt(index, value)`: Insert at a specific position
-  - `RemoveAt(index)`: Remove at a specific position
+  - `removeAt(index)`: Remove at a specific position
   - `clear()`: Remove all elements
 - Uses head and tail dummy nodes for efficient operations
 
+### 4. Circularly Linked List (`CircularlyLinkedLists.cpp`)
+- Provides operations such as:
+  - `front()`: Retrieve the first element
+  - `back()`: Retrieve the last element
+  - `advance()`: Move the cursor to the next element
+  - `add(value)`: Insert a node after the cursor
+  - `remove(value)`: Remove a node
+- Uses a `cursor` pointer to efficiently manage the circular structure
+
 ## Compilation & Execution
-To compile any file, use g++:
+To compile and run any file, use the following command:
 ```bash
  g++ -o main Array.cpp
  ./main
 ```
-Similarly, replace `Array.cpp` with `SinglyLinkedLists.cpp` or `DoublyLinkedList.cpp` to test other implementations.
+Similarly, replace `Array.cpp` with `SinglyLinkedLists.cpp`, `DoublyLinkedList.cpp`, or `CircularlyLinkedLists.cpp` to test other implementations:
+```bash
+ g++ -o main SinglyLinkedLists.cpp
+ ./main
+```
+```bash
+ g++ -o main DoublyLinkedList.cpp
+ ./main
+```
+```bash
+ g++ -o main CircularlyLinkedLists.cpp
+ ./main
+```
+Ensure that you have `g++` installed. Alternatively, you can use `clang++`.
 
 ## Cloning the Repository
 To clone this repository, use the following command:
 ```bash
-git clone https://github.com/EZZATW12/Data-structrue.git
+git clone https://github.com/EZZATW12/Data-structures.git
 ```
 
 ## Contributions
