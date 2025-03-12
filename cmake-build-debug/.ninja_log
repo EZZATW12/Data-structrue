@@ -1,3 +1,5 @@
 # ninja log v6
-14	501	7625958698488086	CMakeFiles/Data_structrue.dir/main.cpp.obj	1ed4f1f1ae1640d0
-501	588	7625958703358405	Data_structrue.exe	6e4bddfe4fa7f5f8
+45	659	7634635286088996	CMakeFiles/Data_structrue.dir/main.cpp.obj	1ed4f1f1ae1640d0
+463	542	7634636216020160	Data_structrue.exe	dd33eb901a950637
+1	257	7634636344865491	build.ninja	79343fffdbfedc07
+4	463	7634636211432307	CMakeFiles/Data_structrue.dir/BinaryTree.cpp.obj	fe7c7336d74894e8

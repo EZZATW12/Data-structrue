@@ -3,4 +3,6 @@ project(Data_structrue)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Data_structrue main.cpp)
+add_executable(Data_structrue main.cpp
+        BinaryTree.cpp)
+add_executable(x BinaryTree.cpp)
